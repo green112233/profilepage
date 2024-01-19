@@ -14,27 +14,12 @@
 			<td width="4%" align="center"><a href="index">
 			<span class = "menutext">HOME</span></a>
 			</td>
-			
-			<c:choose>
-				<c:when test="${sessionScope.sessionId eq null}">
-					<td width="4%" align="center"><a href="login">
-						</a><span class = "menutext">LOGIN</span></a>
-					</td>
-					<td width="4%" align="center"><a href="join">
-					<span class = "menutext">JOIN</span></a>
-					</td>
-				</c:when>
-				<c:otherwise>
-					<td width="4%" align="center"><a href="logout">
-						<span class = "menutext">LOGINOUT</span></a>
-					</td>
-					<td width="4%" align="center"><a href="modify">
-						<span class = "menutext">MODIFY</span></a>
-					</td>
-				</c:otherwise>
-			</c:choose>
-			
-			
+			<td width="4%" align="center"><a href="#">
+			<span class = "menutext">LOGIN</span></a>
+			</td>
+			<td width="4%" align="center"><a href="#">
+			<span class = "menutext">JOIN</span></a>
+			</td>
 			<td width="4%" align="center"><a href="#">
 			<span class = "menutext">PROFILE</span></a>
 			</td>
